@@ -342,8 +342,18 @@ class HomeView extends StatefulWidget {
                     isClick: false),
                 BottomMenu(
                     icon: Icons.message, text: "Message", isClick: false),
-                BottomMenu(
-                    icon: Icons.circle_sharp, text: "Profile", isClick: false),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ProfileView()));
+                  },
+                  child: BottomMenu(
+                      icon: Icons.circle_sharp,
+                      text: "Profile",
+                      isClick: false),
+                ),
               ],
             ),
           ),
