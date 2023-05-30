@@ -19,7 +19,10 @@ class HomeView extends StatefulWidget {
       body: Container(
         width: w,
         height: h,
-        color: primary,
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage("assets/images/background.png"))),
         child: Column(
           children: [
             Padding(
