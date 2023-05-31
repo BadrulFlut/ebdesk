@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       navigatorKey: Get.navigatorKey,
-      home: const ProfileView(),
+      home: const ChatView(),
     );
   }
 }

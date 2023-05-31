@@ -6,6 +6,9 @@
         "home",
         "calendar",
         "message",
-        "profile"
+        "profile",
+        "chat",
+        "chart",
+        "dashboard"
     ]
 }
